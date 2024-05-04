@@ -13,18 +13,19 @@
     {{!-- Outputs important meta data and settings, should always be in <head> --}}
 
 </head>
-<body class="{{body_class}}">
+<body class="{{body_class}} font-bodyFont">
 <div class="gh-viewport">
 
-<header id="gh-head" class="gh-head">
-    <nav class="gh-head-inner gh-container">
+<header id="gh-head" class="gh-head bg-black text-white">
+    <nav class="gh-head-inner gh-container flex justify-between items-center py-4">
 
         <div class="gh-head-brand">
-            <a class="gh-head-logo" href="{{@site.url}}">
+            <a class="gh-head-logo text-4xl flex flex-col font-headingFont font-thin" href="{{@site.url}}">
                 {{#if @site.logo}}
                     <img src="{{@site.logo}}" alt="{{@site.title}}" />
                 {{else}}
                     {{@site.title}}
+                    <span class="text-base uppercase font-bodyFont">brand insiders</span>
                 {{/if}}
             </a>
             <a class="gh-burger" role="button" aria-label="menu">
@@ -36,6 +37,7 @@
         <div class="gh-head-menu">
             {{navigation}}
         </div>
+{{!--
         <div class="gh-head-actions">
             <div class="gh-head-actions-list">
                 {{search}}
@@ -48,6 +50,8 @@
                 {{/if}}
             </div>
         </div>
+--}}
+
     </nav>
 </header>
 
