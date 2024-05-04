@@ -1,3 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Galano Grotesque";
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/galano/GalanoGrotesque-Regular.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: "Galano Grotesque";
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/GalanoGrotesque-Bold.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: "Galano Grotesque";
+    font-weight: 900;
+    font-style: normal;
+    src: url('../fonts/GalanoGrotesque-Heavy.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: "Quincy CF";
+    font-weight: 100;
+    font-style: normal;
+    src: url('../fonts/quincy/Quincy-CF-Thin.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: "Quincy CF";
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/quincy/Quincy-CF-Light.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: "Quincy CF";
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/quincy/Quincy-CF-Regular.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: "Quincy CF";
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/quincy/Quincy-CF-Medium.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: "Quincy CF";
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/quincy/Quincy-CF-Bold.otf') format('OpenType');
+}
+
+/* @font-face { */
+/*     font-family: "Galano Grotesque"; */
+/*     font-weight: 400; */
+/*     font-style: italic; */
+/*     src: url('../fonts/GalanoGrotesque-Italic.otf') format('OpenType'); */
+/* } */
+
 /*
 
 This is a development CSS file that is compiled to a minified

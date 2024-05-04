@@ -8,11 +8,13 @@
 }
 
 html {
+    font-family: 'Quincy CF', sans-serif !important;
     font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
+    font-family: 'Quincy CF', sans-serif !important;
     min-height: 100vh;
     margin: 0;
     padding: 0;
