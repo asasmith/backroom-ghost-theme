@@ -1,20 +1,60 @@
 {{!< default}}
-<div class="gh-page">
-    <div class="gh-container">
 
-        <div class="gh-postfeed">
-        {{#foreach posts}}
-
-            {{> "card" page=../pagination.page }} {{!-- partials/card.hbs --}}
-
-        {{/foreach}}
-        </div>
-
-        {{!-- If JS isn't enabled, fallback to standard pagination --}}
-        <noscript>
-            <div class="gh-pagination">
-                {{pagination}}
-            </div>
-        </noscript>
+<div class="bg-black h-[60vh]">
+    <div class="gh-container h-full flex flex-col justify-center items-center text-white">
+        <h1 class="font-headingFont text-center text-6xl mb-6">Become a people-first marketer.</h1>
+        <p class="text-xl px-4 lg:px-0 md:w-2/3 text-center">The future of marketing puts <span class="font-bold">humans</span> at the center of product, messaging, and outreach. Learn how at your own pace, on your own time.</p>
     </div>
 </div>
+
+<section class="gh-container flex flex-col md:flex-row justify-between items-center pb-6 pt-20 px-4 lg:px-0">
+    <div class="mb-6 md:mb-0 md:w-1/2">
+        <h2 class="text-5xl mb-6">Get monthly cheats in your inbox</h2>
+        <p>Each month I send out a people-first instructional tutorial with downloadable templates so you can implement new marketing tactics at an accessible pace.</p>
+    </div>
+
+    <a href="#" class="bg-black h-12 py-4 px-12 rounded-full text-white uppercase leading-3 border-2 border-black hover:bg-white hover:text-black ease-in duration-200">get your cheats</a>
+</section>
+
+<section class="bg-black text-white py-20 px-4 md:px-0">
+    <div class="gh-container flex flex-col-reverse lg:flex-row justify-between">
+        <div class="w-full lg:w-1/2">
+            <h2 class="font-headingFont text-6xl mb-12">Hey, I’m Kara Redman.</h2>
+            <p class="mb-4">I launched a people-first agency in 2014 trying to answer one core question: Could we be successful AND be good to people?</p>
+            <p class="mb-4">The answer was yes.</p>
+            <p class="mb-4">You’re probably here because you KNOW there’s a way to grow without being icky, yet all the sales and marketing advice out there is repeat playbooks that just don’t feel like you.</p>
+            <p class="mb-4">We’ve grown 25%+ year over year (even during COVID) by avoiding algorithms and smarmy tactics, instead keeping a laser focus on the humans who we are trying to reach. I’m sharing lessons & templates on how we did it so you can learn too.</p>
+        </div>
+        <div class="w-full lg:w-1/3 mb-12 lg:mb-0">
+            <img class="w-full" src="https://backroom-ghost-theme.s3.amazonaws.com/kara-backroom-ghost-theme.jpg" />
+        </div>
+    </div>
+</section>
+
+<section class="gh-container py-12 px-4 md:px-0">
+    <h2 class="font-headingFont text-6xl mb-14 text-center md:text-left">What else you can do.</h2>
+
+    <article class="mb-14 flex flex-col lg:flex-row justify-between items-center">
+        <div class="w-full lg:w-3/5 mb-10 md:mb-0">
+            <h3 class="text-3xl mb-4">Monthly Cheats</h3>
+            <p>Each month I send out a people-first instructional tutorial with downloadable templates so you can implement new marketing tactics at an accessible pace.</p>
+        </div>
+        <a href="#" class="w-72 text-center bg-black h-12 py-4 rounded-full text-white uppercase leading-3 border-2 border-black hover:bg-white hover:text-black ease-in duration-200 self-center lg:self-end">Join the Community</a>
+    </article>
+
+    <article class="mb-14 flex flex-col lg:flex-row justify-between items-center"">
+        <div class="w-full lg:w-3/5 mb-10 md:mb-0">
+            <h3 class="text-3xl mb-4">Self Paced Courses</h3>
+            <p>Learn how to build a powerful brand strategy framework using the people-first process that’s helped my clients grow, exit, acquire, build empires, and create powerful personal brands.</p>
+        </div>
+        <a href="#" class="w-72 text-center bg-black h-12 py-4 rounded-full text-white uppercase leading-3 border-2 border-black hover:bg-white hover:text-black ease-in duration-200 self-center lg:self-end">see courses</a>
+    </article>
+
+    <article class="mb-14 flex flex-col lg:flex-row justify-between items-center"">
+        <div class="w-full lg:w-3/5 mb-10 md:mb-0">
+            <h3 class="text-3xl mb-4">Hire my agency, Backroom</h3>
+            <p>Want hands on support and training for your brand’s marketing? Are you passionate about creating high value products and campaigns for your customers? We got you.</p>
+        </div>
+        <a href="#" class="w-72 text-center bg-black h-12 py-4 rounded-full text-white uppercase leading-3 border-2 border-black hover:bg-white hover:text-black ease-in duration-200 self-center lg:self-end">Apply Now</a>
+    </article>
+</section>

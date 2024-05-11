@@ -1,7 +1,7 @@
-<ul class="nav flex">
+<ul class="nav flex flex-col md:flex-row text-right md:text-center">
     <!-- Loop through the navigation items -->
     {{#foreach navigation}}
-        <li class="nav-{{slug}} mx-4 last-of-type:mr-0 py-1 px-3 rounded-3xl hover:bg-white hover:text-black uppercase {{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        <li class="nav-{{slug}} mb-4 md:mb-0 md:mx-4 last-of-type:mr-0 py-1 px-3 rounded-3xl hover:bg-white hover:text-black transition duration-200 uppercase {{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
     {{/foreach}}
     <!-- End the loop -->
 </ul>
