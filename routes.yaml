@@ -1,0 +1,18 @@
+routes:
+    /: index
+    /courses/: courses
+    /monthly-cheats/: monthly-cheats
+    # /newsletter/: newsletter
+
+
+collections:
+  # /:
+  #   permalink: /{slug}/
+  #   template: index
+  /newsletter/:
+    permalink: /newsletter/{slug}/
+    template: newsletter
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
