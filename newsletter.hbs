@@ -1,12 +1,12 @@
 {{!< default}}
 
 <div class="gh-container px-4 md:px-0">
-    <h2 class="font-headingFont font-thin mt-8 mb-8 text-4xl">Previous Issues</h2>
+    <h2 class="font-headingFont font-thin mt-8 mb-8 pl-2 text-4xl">Previous Issues</h2>
     <div class="grid grid-cols-1 md:grid-cols-3">
-        <div class="col-span-2 md:border-r md:border-slate-300">
+        <div class="col-span-2 md:border-r md:border-slate-300 mb-4">
             {{#get "posts"}}
                 {{#foreach posts}}
-                    <a href="{{url}}" class="border-slate-300 border-b last-of-type:border-none border-w flex flex-col py-8 mr-2">
+                    <a href="{{url}}" class="border-slate-300 border-b last-of-type:border-none border-w flex flex-col pl-2 py-8 mr-2 hover:text-white hover:bg-black transition-colors">
                         <span class="font-bodyFont font-medium mb-2 text-3xl">{{title}}</span>
                         <span class="font-extralight">{{date}}</span>
                     </a>
